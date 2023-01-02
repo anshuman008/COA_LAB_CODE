@@ -1,0 +1,28 @@
+
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    
+    int a, b;
+ cin>>a>>b;
+   
+    cout<<"and OPERATOR &"<<endl;
+    cout << "a & b = " << (a & b) << endl;
+ 
+    cout<<"or OPERATOR |"<<endl;
+    cout << "a | b = " << (a | b) << endl;
+ 
+    cout<<"XOR OPERATOR ^"<<endl;
+    cout << "a ^ b = " << (a ^ b) << endl;
+ 
+  
+ 
+    cout<<"LEFT SHIFT OPERATOR <<"<<endl;
+    cout<<"b << 1" <<" = "<< (b << 1) <<endl;
+ 
+    cout<<"RIGHT SHIFT OPERATOR >>"<<endl; 
+    cout<<"b >> 1 "<<"= " << (b >> 1 )<<endl;
+ 
+    return 0;
+}
